@@ -14,7 +14,7 @@ public class _86_分割链表 {
         ListNode next = null;
         while(head != null){
             next = head.next;
-            head.next = null;
+            head.next = null;//不加这句会超出内存限制
             if(head.val < x){
                 if(sH == null){
                     sH = head;
