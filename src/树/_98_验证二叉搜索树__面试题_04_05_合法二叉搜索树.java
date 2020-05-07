@@ -2,7 +2,7 @@ package 树;
 
 import java.util.Stack;
 
-public class _98_验证二叉搜索树 {
+public class _98_验证二叉搜索树__面试题_04_05_合法二叉搜索树 {
     public class TreeNode {
         int val;
         TreeNode left;
